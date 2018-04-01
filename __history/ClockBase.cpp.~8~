@@ -1,0 +1,57 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include <ctime>
+#pragma hdrstop
+
+#include "ClockBase.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+class Alarm
+  {
+
+	int AlarmHour;
+	int AlarmMinute;
+	  void SetAlarm (int AHour, int AMinute)
+	  {
+		  AlarmHour = AHour;
+		  AlarmMinute= AMinute;
+	  };
+
+	  void GetAlarm (int AHour, int AMinute)
+	  {
+		  AHour=AlarmHour ;
+		  AMinute=AlarmMinute;
+	  };
+  };
+
+TForm1 *Form1;
+ Alarm Alarm1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::ocShowTime(TObject *Sender)
+{
+	time_t dtTime =   time(0);
+	char* dt = ctime(&dtTime);
+	char subStr[9];
+
+	strncpy(subStr, dt+11, 8);
+	subStr[8] = 0;
+	eTime->Text = subStr;
+}
+//---------------------------------------------------------------------------
+
+
+
+
+void __fastcall TForm1::pbSetAlarmClick(TObject *Sender)
+{
+Alarm1->SetTime(1,2)
+}
+//---------------------------------------------------------------------------
+

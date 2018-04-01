@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.129,C:\Users\Гостям\Documents\RAD Studio\Projects\Project3.cbproj=E:\Clock\Project3.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,C:\Users\Гостям\Documents\RAD Studio\Projects\Unit4.cpp=E:\Clock\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.122,=C:\Users\Гостям\Documents\RAD Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,C:\Users\Гостям\Documents\RAD Studio\Projects\Unit4.h=E:\Clock\Unit4.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.010,E:\Clock\Project3.cbproj=E:\Clock\Clock.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,C:\Users\Гостям\Documents\RAD Studio\Projects\Unit4.dfm=E:\Clock\Unit4.dfm</Transaction>
+    <Transaction>2018.04.01 21:54:37.036,=E:\Clock\Unit1.cpp</Transaction>
+    <Transaction>2018.04.01 21:55:14.905,E:\Clock\ClockBase.h=E:\Clock\Unit1.h</Transaction>
+    <Transaction>2018.04.01 21:55:14.905,E:\Clock\ClockBase.dfm=E:\Clock\Unit1.dfm</Transaction>
+    <Transaction>2018.04.01 21:55:14.905,E:\Clock\ClockBase.cpp=E:\Clock\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
